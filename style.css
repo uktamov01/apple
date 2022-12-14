@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.parent{
+    width: 100%;
+    height: 150vh;
+    border: 2px solid red;
+    list-style: none;
+    
+}
+.navbar{
+    display: flex;
+    transition: .3s;
+    
+}
+.navbar_write{
+    margin-left: 25px;
+    color: #333;
+    
+}
+.navbar_write:hover{
+color: blue;
+}
+.navbar_write2{
+    margin-left: 660px;
+    padding: 0 25px;
+    color: #333;
+}
+.navbar_write2:hover{
+    color: blue;
+    }
+.navbar_write3{
+    padding: 0 25px;
+    color: #333;
+}
+.navbar_write3:hover{
+    color: blue;
+    }
+.navbar_write4{
+    padding: 0 25px;
+    color: #333;
+}
+.navbar_write4:hover{
+    color: blue;
+    }
+.navbar_write5{
+    padding: 0 25px;
+    color: #333;
+}
+.navbar_write5:hover{
+    color: blue;
+    }
+    .navbar_two{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 50px;
+    }
+    .but1{
+        width: 350px;
+        height: 35px;
+        background: white;
+        color: #333;
+        border-radius: 30px 0 0 30px;
+        margin-left: 70px;
+        font-size: 17px;
+        list-style: none;
+        
+    }
+    .but2{
+        width: 350px;
+        height: 35px;
+        background: white;
+        color: #333;
+        font-size: 17px;
+        list-style: none;
+    }
+    .but3{
+        width: 350px;
+        height: 35px;
+        background: white;
+        color: #333;
+        font-size: 17px;
+    }
+    .but4{
+        width: 40px;
+        height: 35px;
+        font-size: 18px;
+        background: white;
+        color: #333;
+        border-radius:0 30px 30px 0 ;
+    }
+    .parents{
+        width: 100%;
+        height: 130vh;
+        margin-left: 60px;
+        margin-right: 60px; 
+        border: 1px solid forestgreen;
+    }
